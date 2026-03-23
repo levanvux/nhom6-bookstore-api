@@ -1,0 +1,27 @@
+{
+  "name": "nhom6-bookstore-api",
+  "version": "1.0.0",
+  "description": "simple REST API built with Node.js (Express), on an in-memory dataset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levanvux/nhom6-bookstore-api.git"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "bookstore"
+  ],
+  "author": "levanvux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levanvux/nhom6-bookstore-api/issues"
+  },
+  "homepage": "https://github.com/levanvux/nhom6-bookstore-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
