@@ -1,6 +1,6 @@
 # 📦 Backend API Server
 
-> **Phục vụ môn học:** NT542 — Lập trình kịch bản tự động hoá cho quản trị và bảo mật mạng
+> **Phục vụ môn học:** NT542 - Lập trình kịch bản tự động hoá cho quản trị và bảo mật mạng
 
 ---
 
