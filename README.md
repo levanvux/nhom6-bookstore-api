@@ -50,7 +50,7 @@ Server khởi động tại: `http://localhost:3003`
 
 ---
 
-## API Endpoints
+## 🔎 API Endpoints
 
 ### Lấy tất cả sách
 
@@ -141,7 +141,7 @@ DELETE /books/:id
 
 ---
 
-## Test nhanh
+## 🧪 Test nhanh
 
 ```bash
 curl http://localhost:3003/books
