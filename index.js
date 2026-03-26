@@ -4,6 +4,10 @@ const PORT = 3003;
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.json({ message: "Welcome to Bookstore API" });
+});
+
 let books = [
   { id: 1, title: 'The Pragmatic Programmer', author: 'Hunt/Thomas' },
   { id: 2, title: 'Clean Code', author: 'Robert C. Martin' },
