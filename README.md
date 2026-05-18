@@ -1,38 +1,18 @@
 # 📦 Backend API Server
 
-> **Phục vụ môn học:** NT542 - Lập trình kịch bản tự động hoá cho quản trị và bảo mật mạng
+> **Phục vụ môn học:** NT542.Q22 - Lập trình kịch bản tự động hoá cho quản trị và bảo mật mạng
+
+> **Nhóm**: 06
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## ⚙️ HOW TO RUN
 
-| Thành phần | Công nghệ |
-|---|---|
-| Runtime | Node.js |
-| Framework | Express.js |
-| Dữ liệu | In-memory (in JavaScript array) |
-
----
-
-## 📁 Cấu trúc thư mục
-
-```
-my-api/
-├── index.js          # Toàn bộ logic API
-├── package.json      
-├── package-lock.json 
-└── node_modules/     
-```
-
----
-
-## ⚙️ Cài đặt và chạy
-
-### Yêu cầu
+### Requirements
 
 - [Node.js](https://nodejs.org)
 
-### Các bước
+### Steps
 
 ```bash
 # 1. Clone project
@@ -46,7 +26,7 @@ npm install
 node index.js
 ```
 
-Server khởi động tại: `http://localhost:3003`
+Server running at: `http://localhost:3003`
 
 ---
 
@@ -141,9 +121,30 @@ DELETE /books/:id
 
 ---
 
-## 🧪 Test nhanh
+## 🧪 QUICK TEST
 
 ```bash
 curl http://localhost:3003/books
 
+```
+---
+
+## 🛠️ Công nghệ sử dụng
+
+| Thành phần | Công nghệ |
+|---|---|
+| Runtime | Node.js |
+| Framework | Express.js |
+| Dữ liệu | In-memory (in JavaScript array) |
+
+---
+
+## 📁 Cấu trúc thư mục
+
+```
+my-api/
+├── index.js          # Toàn bộ logic API
+├── package.json      
+├── package-lock.json 
+└── node_modules/     
 ```
