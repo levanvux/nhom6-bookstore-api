@@ -16,8 +16,8 @@
 
 ```bash
 # 1. Clone project
-git clone <repo-url>
-cd my-api
+git clone https://github.com/levanvux/nhom6-bookstore-api.git
+cd nhom6-bookstore-api
 
 # 2. Cài đặt dependencies
 npm install
@@ -135,7 +135,7 @@ curl http://localhost:3003/books
 |---|---|
 | Runtime | Node.js |
 | Framework | Express.js |
-| Dữ liệu | In-memory (in JavaScript array) |
+| Dữ liệu | In-memory (JavaScript array) |
 
 ---
 
